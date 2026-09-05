@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IFI",
+    "SAS"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "F": { "item": "minecraft:furnace" },
+    "A": { "item": "minecraft:anvil" },
+    "S": { "item": "minecraft:smooth_stone" }
+  },
+  "result": {
+    "item": "repairforge:repair_forge",
+    "count": 1
+  }
+}

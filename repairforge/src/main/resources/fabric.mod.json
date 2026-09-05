@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "repairforge",
+  "version": "${version}",
+  "name": "Repair Forge",
+  "description": "Добавляет Ремонтный горн — блок, который за топливо чинит предметы. Сделан для Prominence 2: Hasturian Era.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/repairforge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hasturian.repairforge.RepairForgeMod"],
+    "client": ["com.hasturian.repairforge.client.RepairForgeModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
